@@ -1,0 +1,99 @@
+.container{
+    width: 600px;
+    height: 900px;
+    background-color: rgba(182, 77, 77, 0.445);
+    margin: auto;
+}
+.item img{
+    width: 65px;
+}
+.item1{
+    display: flex;
+    margin-left: 250px;  
+}
+.item1 p{
+    margin-top: -45px;
+    padding-top: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 15px;
+    background: #ec2917;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+}
+.item1 i {
+    margin-top: -40px;
+    font-size:25px;
+}
+.item2 input{
+    border: 1px solid #ec2917;
+    width: 565px;
+    height: 35px;
+    background: white;
+    border-radius: 5px;
+    padding-left: 30px;
+    font-size: 15px;
+}
+.item3{
+    margin-top: -30px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+.formsonmoi{
+    width: 98%;
+    height: auto;
+    margin: auto;
+    border: 1px solid rgb(192, 189, 189);
+    background: white;
+}
+.trangchu{
+    width: 100%;
+    height: 30px;
+    background: rgb(206, 205, 205);
+}
+.trangchu img{
+    width: 18px;
+    padding-left: 5px;
+    padding-top: 3px;
+}
+.trangchu i{
+    font-size: 15px;
+}
+.sonmoi{
+    display: grid;
+    grid-template-columns: 145px 155px 159px 115px;
+    grid-template-rows: 58px 65px 60px;
+    font-size: 17px;
+}
+.sonmoi .son1{
+    padding-left: 10px;
+}
+.sonmoi .son5{
+    padding-left: 10px;
+}
+.sonmoi .son10{
+    padding-left: 10px;
+}
+.sonmoi .son14{
+    padding-left: 10px;
+}
+.sanpham{
+    display: grid;
+    grid-template-columns: 175px 192px 167px;
+    grid-template-rows: 180px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+.sanpham img{
+    width:150px;
+    height:180px;
+    margin-left: 5px;
+}
+.quannu{
+    width: 150px;
+    text-align: center;
+    height: 200px;
+    background-color: #ec2917;
+}
